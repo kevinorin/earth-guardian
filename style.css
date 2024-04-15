@@ -1,0 +1,35 @@
+.score {
+  text-align: center;
+}
+.grid {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #94a3b8;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.grid div {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #f1f5f9;
+  box-sizing: border-box;
+}
+
+.invader {
+  background-color: #4c1d95;
+  border-radius: 10px;
+}
+
+.guardian {
+  background-color: #14532d;
+  border-radius: 3px;
+}
+
+.laser {
+  background-color: #be185d;
+}
+
+.boom {
+  background-color: #dc2626;
+}
